@@ -5,7 +5,7 @@ This is a design project
 * **State Management:** Demonstrates efficient state handling using Compose's observable state features.
 
 ## Application Main Screen
-![Project Screenshot](photo.png)
+![Project Screenshot](app/photo.png)
 
 ##  Uyarı ve Feragatname (Eğitim Amaçlı Kullanım)
 
