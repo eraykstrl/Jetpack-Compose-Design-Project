@@ -1,4 +1,5 @@
 <resources>
+<<<<<<< HEAD
     <string name="app_name">ToDoApplicationPro</string>
     <string name="go_to_save_creen">Go To Save Screen</string>
     <string name="search_text">What do you want to search for?</string>
@@ -20,3 +21,25 @@
     <string name="alert_update_text">Are you sure you want to update?</string>
 
 </resources>
+=======
+    <string name="app_name">Clone Shop</string>
+    <string name="popular_box">Revaçta olan ürünler</string>
+    <string name="winter_opportunities">Erken Kış Fırsatları</string>
+    <string name="discount_text">İNDİRİM</string>
+    <string name="categories_text">Kategoriler</string>
+    <string name="search_text">Ürün veya kategori ara</string>
+    <string name="search_bar_info">Arama kısmı</string>
+    <string name="search_with_camera">Kamerayla ürün ara</string>
+    <string name="messages_text">Mesajlar</string>
+    <string name="notification_text">Bildirimler</string>
+    <string name="home_screen_text">Anasayfa</string>
+    <string name="go_text">Go</string>
+    <string name="my_favorite_text">Favorilerim</string>
+    <string name="my_card_text">Sepetim</string>
+    <string name="my_account_text">Hesabım</string>
+    <string name="popular_week_product">Haftanın Öne Çıkan Ürünleri</string>
+    <string name="see_all_text">Hesabım</string>
+    <string name="custom_category_you">Sana Özel Kategoriler</string>
+
+</resources>
+>>>>>>> 704d8febf90ea12593a55b0191f2617dea17cec7
