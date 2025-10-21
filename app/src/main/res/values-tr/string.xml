@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">ToDoApplicatonPro</string>
+    <string name="go_to_save_creen">Go To Save Screen</string>
+    <string name="search_text">Ne aramak istiyorsun?</string>
+    <string name="main_screen_title">Ana Sayfa</string>
+    <string name="delete_text">Sil</string>
+    <string name="save_screen_title">Aktivite Ekle</string>
+    <string name="hello_message">Merhaba, unutma başlamak bitirmenin yarısıdır</string>
+    <string name="new_activity_text">Hemen bir şeyler ekle</string>
+    <string name="save_button_text">Kaydet</string>
+    <string name="snackbar_save_message">Eklemek istediğine emin misin?</string>
+    <string name="snackbar_delete_message">Silmek istediğine emin misin?</string>
+    <string name="update_button_text">Güncelle</string>
+    <string name="update_screen_title">Güncelle</string>
+    <string name="update_text">Aktivitenizin yeni adını girin</string>
+    <string name="update_screen_saying">Gözden geçirmek, görmekten öte anlamaktır.</string>
+    <string name="alert_cancel">İptal</string>
+    <string name="alert_apply">Tamam</string>
+    <string name="alert_update_title">Aktivite Güncelleme</string>
+    <string name="alert_update_text">Güncellemek istediğinize emin misin?</string>
+
+</resources>
