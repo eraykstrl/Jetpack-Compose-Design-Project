@@ -8,8 +8,16 @@
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
 
+<<<<<<< HEAD
+    <color name="burgundy">#8B0000</color>
+    <color name="soft_gray">#2E2E2E</color>
+    <color name="blue">#0B4C8C</color>
+    <color name="light_gray">#D3D3D3</color>
+
+=======
     <color name="orange">#FFFF6F00</color>
     <color name="gray">#D9D9D9</color>
     <color name="dark_gray">#4F4F4F</color>
     <color name="magenta">#FF00FF</color>
+>>>>>>> 704d8febf90ea12593a55b0191f2617dea17cec7
 </resources>

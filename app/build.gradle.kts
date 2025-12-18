@@ -2,16 +2,28 @@ plugins {
     alias(libs.plugins.android.application)
     alias(libs.plugins.kotlin.android)
     alias(libs.plugins.kotlin.compose)
+<<<<<<< HEAD
+
+=======
+>>>>>>> 704d8febf90ea12593a55b0191f2617dea17cec7
     id("kotlin-kapt")
     id("dagger.hilt.android.plugin")
 }
 
 android {
+<<<<<<< HEAD
+    namespace = "com.example.todoapplicatonpro"
+    compileSdk = 36
+
+    defaultConfig {
+        applicationId = "com.example.todoapplicatonpro"
+=======
     namespace = "com.example.graduationproject"
     compileSdk = 36
 
     defaultConfig {
         applicationId = "com.example.graduationproject"
+>>>>>>> 704d8febf90ea12593a55b0191f2617dea17cec7
         minSdk = 24
         targetSdk = 36
         versionCode = 1
@@ -59,6 +71,34 @@ dependencies {
     debugImplementation(libs.androidx.ui.tooling)
     debugImplementation(libs.androidx.ui.test.manifest)
 
+<<<<<<< HEAD
+    // Compose Navigation
+    implementation("androidx.navigation:navigation-compose:2.7.6")
+
+    // JSON için
+    implementation("com.google.code.gson:gson:2.10")
+
+    // ---- LIFECYCLE (hepsi aynı versiyon olmalı!) ----
+    implementation("androidx.lifecycle:lifecycle-viewmodel-ktx:2.7.0")
+    implementation("androidx.lifecycle:lifecycle-livedata-ktx:2.7.0")
+    implementation("androidx.lifecycle:lifecycle-runtime-ktx:2.7.0")
+
+    // LiveData + Compose entegrasyonu
+    implementation("androidx.compose.runtime:runtime-livedata:1.6.1")
+
+    // Activity KTX
+    implementation("androidx.activity:activity-ktx:1.8.2")
+
+    // ---- HILT ----
+    implementation("com.google.dagger:hilt-android:2.48")
+    kapt("com.google.dagger:hilt-android-compiler:2.48")
+
+    // ---- ROOM ----
+    implementation("androidx.room:room-runtime:2.6.1")
+    kapt("androidx.room:room-compiler:2.6.1")
+    implementation("androidx.room:room-ktx:2.6.1")
+
+=======
     val nav_version = "2.9.4"
 
     implementation("androidx.navigation:navigation-compose:$nav_version")
@@ -72,4 +112,5 @@ dependencies {
     implementation("com.google.dagger:hilt-android:2.48")
     kapt("com.google.dagger:hilt-android-compiler:2.48")
 
+>>>>>>> 704d8febf90ea12593a55b0191f2617dea17cec7
 }
